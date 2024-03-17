@@ -1,0 +1,19 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.scrolling-container {
+    height: 800vh; /* Adjust this value to require more or less scrolling */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.birthday-message {
+    font-size: 2rem;
+    color: #FA8072; /* Salmon color; feel free to choose any */
+}
