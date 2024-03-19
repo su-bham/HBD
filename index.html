@@ -1,18 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Birthday Message</title>
+    <title>Special Message</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="scrolling-container">
-    <p class="birthday-message">Happy Birthday!</p>
-</div>
+<button id="specialMessageButton">Shubham wants to say something</button>
+<img id="sorryKiranImage" src="C:\Users\kshit\Downloads\kiran.png" alt="Sorry Kiran" style="display:none; max-width: 100%; height: auto;">
+
+<script>
+document.getElementById("specialMessageButton").onclick = function() {
+    var img = document.getElementById("sorryKiranImage");
+    if (img.style.display === "none") {
+        img.style.display = "block"; // Show the image
+    } else {
+        img.style.display = "none"; // Optional: hide the image if the button is clicked again
+    }
+};
+</script>
 
 </body>
 </html>
-        
