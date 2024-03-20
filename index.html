@@ -8,17 +8,11 @@
 </head>
 <body>
 
-<button id="specialMessageButton">Don't you dare to touch me!!!</button>
-<img id="sorryKiranImage" src="images/Kiran.jpg" alt="Sorry Kiran" style="display:none; max-width: 100%; height: auto;">
+<button id="specialMessageButton">Shubham wants to say something</button>
 
 <script>
 document.getElementById("specialMessageButton").onclick = function() {
-    var img = document.getElementById("sorryKiranImage");
-    if (img.style.display === "none") {
-        img.style.display = "block"; // Show the image
-    } else {
-        img.style.display = "none"; // Optional: hide the image if the button is clicked again
-    }
+    window.location.href = 'sorry.html';
 };
 </script>
 
