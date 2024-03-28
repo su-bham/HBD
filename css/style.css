@@ -9,8 +9,8 @@ body, html {
 }
 
 button {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
-    color: white;
+    background: linear-gradient(135deg, #6e8efa, #a777e3);
+    color: red;
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
